@@ -1,0 +1,63 @@
+<!--This file created 9:50 PM  7/28/96 by Claris Home Page  version 1.0 Beta 1-->
+<HTML>
+<HEAD>
+   <TITLE>The period Doubling Route to Chaos</TITLE>
+   <script src="https://cjrtnc.leaningtech.com/3.0/cj3loader.js"></script>
+</HEAD>
+<BODY>
+
+<H1>The Period Doubling Route to Chaos</H1>
+
+<P>This is an applet of the period doubling route to chaos,
+demonstrating the ideas of iterating one dimensional maps, the
+universal scaling of this route to chaos, and the renormalization
+group theory.<HR><APPLET CODE="startMap.class" WIDTH=400 HEIGHT=30
+ALIGN=bottom>
+
+</APPLET><HR>and while the applet is loading..........</P>
+   <script>
+      cheerpjInit();
+    </script>
+<H2>One Dimensional Maps</H2>
+
+<P>Perhaps the simplest "dynamical system" is the iteration of a "one
+dimensional map": you give me a value <I>x</I> between 0 and 1, and I
+give you back <I>y=f(x)</I>, also between 0 and 1, where <I>f</I> is
+a simple function e.g. a quadratic function. This value of <I>y</I>
+becomes the next input value for the iteration. Symbolically</P>
+
+<P ALIGN=CENTER><I>x<SUB>n+1</SUB> = f(x<SUB>n</SUB>)</I></P>
+
+<P>We can think of <I>n</I> as a discrete "time" variable. Even for
+simple functions <I>f</I> the sequence of numbers generated has a
+rich behavior, for example periodic (repeating) with an arbitrary
+repeat period that may be chosen by varying a parameter in <I>f</I>,
+or apparently random, which (loosely) we call chaos.</P>
+
+<P>The iteration of the map is conveniently shown graphically from
+the plot of <I>y=f(x)</I>. For the input value <I>x=x<SUB>n</SUB></I>
+the output is the value <I>y</I> i.e moving vertically to the graph of
+the function to <I>f(x)</I>. To get the next input value
+<I>x<SUB>n+1</SUB></I> we need the value <I>x=y</I> given by moving
+horizontally to the diagonal. The next iteration
+<I>x<SUB>n+2</SUB></I> is given by again moving vertically to
+<I>f(x)</I>, etc.</P>
+
+<P>This process is demonstrated in the accompanying applet. To start,
+take the default values (hit the <B>Reset</B> button), and iterate
+with the <B>Step</B> button.</P>
+
+There are some
+<A HREF="Map_docs/bugs.html">bugs</A>.<HR><A HREF="Map_docs/intro.html">
+Instructions</A>.<HR>
+
+<ADDRESS>Last modified Saturday, September 7, 1996<BR>
+
+Michael Cross, mcc@caltech.edu</ADDRESS>
+<HR>
+<FONT SIZE=2>This page has been visited 
+<IMG ALIGN=BOTTOM SRC="http://www.caltech.edu/cgi-bin/Count.cgi?df=mccrosss.dat
+&dd=E&ft=0&trgb=ffffff&pad=F">
+times since 6 August 1996.</FONT>
+</BODY>
+</HTML>

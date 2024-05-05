@@ -1,0 +1,43 @@
+<!--This file created 11:38 AM  8/11/96 by Claris Home Page  version 1.0 Beta 1-->
+<HTML>
+<HEAD>
+   <TITLE>Fractal Nature of Chaos</TITLE>
+   <script src="https://cjrtnc.leaningtech.com/3.0/cj3loader.js"></script>
+</HEAD>
+<BODY>
+
+<H1>Fractal Nature of Chaos</H1>
+
+
+<H2><HR>Simulation</H2>
+
+<APPLET CODE="startMap2D.class" WIDTH=400 HEIGHT=30 ALIGN=bottom></APPLET>
+<script>
+   cheerpjInit();
+ </script>
+<HR>
+<P>The fractal nature of chaos is most easily shown using the iteration of two variable maps, i.e.<BR>
+<I><CENTER>x<SUB>n+1</SUB>=X(x<SUB>n</SUB>,y<SUB>n</SUB>)<BR>
+y<SUB>n+1</SUB>=Y(x<SUB>n</SUB>,y<SUB>n</SUB>)</CENTER></I>
+with some simple functions chosen for X and Y. This applet iterates these equations for a number
+of well known choices for the functions. The first five choices (Henon, Duffing, Circle, Bakers' and Yorke
+maps) show <EM>dissipative chaos</EM> with the
+iterated points collapsing to a complicated and often beautiful fractal structure independent of the
+coordinates of the initial point chosen to start the iteration. The sixth choice
+(the "Standard Map") is <EM>area preserving</EM> and derives from Hamiltonian (non-dissipative) dynamics.
+Here there is no collapse onto an attractor: instead every initial condition leads to a different orbit, and
+starting with many initial conditions builds up an amazingly rich structure.</P>
+<P>With this applet you can:
+<UL>
+<LI>display the attractor or orbits for the different 2d maps;
+<LI>continue the iteration with a new initial condition by clicking once on the running plot;
+<LI>zoom in on any portion of the plot (by clicking on two points of the stopped plot forming the corners
+of the desired magnification) to see the structure within structure characteristic of a fractal;
+<LI>calculate the dimension of the attractor (or a magnified portion of the attractor) using a
+simple "box counting" algorithm.
+</UL></P>
+<HR>
+<ADDRESS>Last modified Friday, June 6, 1997<BR>
+Michael Cross, mcc@caltech.edu</ADDRESS>
+</BODY>
+</HTML>

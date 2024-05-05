@@ -1,0 +1,75 @@
+<!--This file created 11:38 AM  8/11/96 by Claris Home Page  version 1.0 Beta 1-->
+<HTML>
+<HEAD>
+   <TITLE>Chua's Circuit</TITLE>
+   <script src="https://cjrtnc.leaningtech.com/3.0/cj3loader.js"></script>
+</HEAD>
+<BODY>
+
+<H1>Chua's Circuit</H1>
+
+<P>- a simple electronic circuit, developed by
+<A HREF="Chua_docs/bibliography.html">Leon Chua</A>, showing chaotic
+dynamics.</P>
+
+<H2><HR>Simulation</H2>
+
+<H2><APPLET CODE="startChua.class" WIDTH=400 HEIGHT=30 ALIGN=bottom>
+
+
+
+
+
+
+
+</APPLET><HR>Circuit</H2>
+   <script>
+      cheerpjInit();
+    </script>
+<P ALIGN=CENTER><IMG SRC="chua_cir.gif" WIDTH=512 HEIGHT=377
+ALIGN=bottom></P>
+
+<P>The applet shows a simulation of Chua's circuit, plotting the
+voltage measured across <I>C1</I> against the voltage measured across
+<I>C2</I>. This corresponds to the display on an <I>X-Y
+</I>oscilloscope with probes connected across these capacitors. The
+initial values of the parameters used in the applet correspond to the
+component values in the circuit diagram, and show a simple periodic
+orbit (oscillation). The transition to chaotic dynamics can be found
+by <I>carefully</I> decreasing <I>R</I> or <I>C1</I>, (e.g. decrease
+<I>R</I> in steps of 0.01 to 1.2K). The simulation compares well with
+what is actually seen on an oscilloscope. Chaos seems to develop via
+a <A HREF="Scalemap.html">subharmonic cascade</A>.</P>
+
+<P>If you do not have access to an oscilloscope, you can use the
+voltage across <I>C1</I> or <I>C2</I> as the input to a high input
+impedance audio amplifier (with the component values shown the
+frequency of the oscillations is in the audio range). It turns out
+that the ear is very sensitive to the development of a weak
+subharmonic. The subharmonic becomes the fundamental an octave below
+the original tone, and the ear hears the note drop an octave even
+when the intensity of the new fundamental is very weak. The first two
+or three transitions in the subharmonic cascade route to chaos, and
+the onset of chaos (noise!) are very audible.</P>
+
+<P><A HREF="Chua_docs/works.html">How the circuit works.</A></P>
+
+<P><A HREF="Chua_docs/build.html">Building the circuit </A></P>
+
+<P><A HREF="Chua_docs/analysis.html">Why Chaos?</A></P>
+
+<P><A HREF="Chua_docs/chua_eq.tex">Circuit equations</A>: rather
+technical, and only useful if you have
+<A HREF="http://www.ics.raleigh.ibm.com/ics/techexp.htm#FEAT">IBM
+TechExplorer</A> (sorry, Windows 95 or NT only!) or can read LaTeX
+files.</P>
+
+<P><A HREF="Chua_docs/universality.html">Universality</A></P>
+
+<P><A HREF="Chua_docs/bibliography.html">Bibliography</A></P>
+
+<ADDRESS><HR>Last modified 8 August 1996</ADDRESS>
+
+<ADDRESS>Michael Cross, mcc@caltech.edu</ADDRESS>
+</BODY>
+</HTML>
